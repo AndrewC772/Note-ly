@@ -3,7 +3,7 @@
     margin: 0px;
 }
 /* For Standard displays */
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 851px) {
     button {
         color: #907aa9;
         border: 0;
