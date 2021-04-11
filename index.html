@@ -20,9 +20,10 @@
 
     <div class="middlenoteextended"> 
         <button class="notesbutton light_mode" type="menuitem"> + </button>
-        <textarea id="Notes" name="Notes" rows="10" cols="30"> Enter notes here </textarea>
-        <button class="buttonsavedelete light_mode"> save </button>
-        <button class="buttonsavedelete light_mode"> delete </button>
+        <div id="notearea" contenteditable="false"></div> 
+        <!-- <textarea id="Notes" name="Notes" rows="10" cols="30"> Enter notes here </textarea> -->
+        <button class="buttonsave light_mode"></button>
+        <button class="buttondelete light_mode"></button>
     </div>
     <nav class="sidemenuextend"> 
         <button class="buttonextended light_mode" type="menuitem"> &nbsp; << </button> 
@@ -33,7 +34,7 @@
         <li class="sidebaritems" > Notes 2 </li>
     </div class="sidemenuitems">
 
-    <footer class="bottom">created by: Andrew Chen Set: A</footer>
+    <footer class="bottom"><p>created by: Andrew Chen Set: A</p></footer>
 
 </body>
 </html>

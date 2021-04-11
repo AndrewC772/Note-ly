@@ -90,11 +90,9 @@
         grid-column-end: 2;
         font-size: 2rem;
     }
-    
     h1{
         font-size: 2rem;
     }
-    
     .middle {
         background-color: #faf4ed;
         grid-area: mc;
@@ -115,13 +113,6 @@
         grid-row-end: 5;
         grid-column-start: 4;
         grid-column-end: 7;
-    }
-    .buttonsavedelete{
-        vertical-align: bottom;
-    }
-    
-    .notesbutton {
-        vertical-align: top;
     }
 }
 /* For Iphone X */
@@ -192,12 +183,7 @@
         grid-area:mt;
         top: 1rem;
     }
-    .buttonsavedelete{
-        vertical-align: bottom;
-    }
-    .notesbutton {
-        vertical-align: top;
-    }
+
     .sidemenuitems {
         grid-area: mt;
     }
@@ -226,4 +212,24 @@ button.light_mode{
     background-color:black;
     color:white;
     font-family: 'Roboto', sans-serif;
+}
+[contenteditable] > div{
+    font-size: 1rem;
+}
+[contenteditable] > div:first-child{
+    font-size: 1.5rem;
+}
+.buttonsave{
+    vertical-align: bottom;
+    color:#faf4ed ;
+}
+.buttondelete{
+    vertical-align: bottom;
+    color:#faf4ed ;
+}
+.unhide{
+    color:#907aa9 ;
+}
+.notesbutton {
+    vertical-align: top;
 }
