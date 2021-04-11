@@ -54,7 +54,7 @@
         grid-area: t;
         text-align: right;
         display:flex;
-        grid-column-start: 8;
+        grid-column-start: 7;
         grid-column-end: 9;
         justify-content: space-evenly;
     }
@@ -69,6 +69,10 @@
     .navdesign {
         font-size: 1.5rem;
         display:inline-block;
+        font-family: 'Roboto', sans-serif;
+        display:flex;
+        justify-content: space-evenly;
+
     }
     button.sidemenu {
         position: relative;
@@ -182,6 +186,7 @@
     .navdesign {
         font-size: 1.5rem;
         display:inline-block;
+        font-family: 'Roboto', sans-serif;
     }
     button.sidemenu {
         grid-area:mt;
@@ -202,6 +207,7 @@
         justify-content: center;
     }
 }
+
 body {
     background-color:#faf4ed;
     color: #907aa9;
