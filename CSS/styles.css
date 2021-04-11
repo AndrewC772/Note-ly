@@ -5,11 +5,12 @@
 /* For Standard displays */
 @media screen and (min-width: 851px) {
     button {
-        color: #907aa9;
         border: 0;
         border-radius: 0px;
         font-size: 2rem;
-        background-color: #faf4ed;
+        background-color:#faf4ed;
+        color: #907aa9;
+        font-family: 'Roboto', sans-serif;
     }
     .gridlayout {
         display: grid;
@@ -50,7 +51,6 @@
         font-size: 2rem;
     }
     .top {
-        background-color: #faf4ed;
         grid-area: t;
         text-align: right;
         display:flex;
@@ -127,11 +127,12 @@
 /* For Iphone X */
 @media screen and (max-width: 850px) {
     button {
-        color: #907aa9;
         border: 0;
         border-radius: 0px;
         font-size: 1rem;
-        background-color: #faf4ed;
+        background-color:#faf4ed;
+        color: #907aa9;
+        font-family: 'Roboto', sans-serif;
     }
     .gridlayout {
         display: grid;
@@ -172,7 +173,6 @@
         grid-area: mc;
     }
     .top {
-        background-color: #faf4ed;
         grid-area: t;
         text-align: right;
         display:flex;
@@ -207,9 +207,23 @@
         justify-content: center;
     }
 }
-
-body {
+.light_mode {
     background-color:#faf4ed;
     color: #907aa9;
+    font-family: 'Roboto', sans-serif;
+}
+button.light_mode{
+    background-color:#faf4ed;
+    color: #907aa9;
+    font-family: 'Roboto', sans-serif;
+}
+.side_menu_extend_darkmode {
+    background-color:gray;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+.dark_mode {
+    background-color:black;
+    color:white;
     font-family: 'Roboto', sans-serif;
 }
