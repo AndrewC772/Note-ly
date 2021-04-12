@@ -5,12 +5,7 @@
 /* For Standard displays */
 @media screen and (min-width: 851px) {
     button {
-        border: 0;
-        border-radius: 0px;
         font-size: 2rem;
-        background-color:#faf4ed;
-        color: #907aa9;
-        font-family: 'Roboto', sans-serif;
     }
     .gridlayout {
         display: grid;
@@ -118,12 +113,7 @@
 /* For Iphone X */
 @media screen and (max-width: 850px) {
     button {
-        border: 0;
-        border-radius: 0px;
         font-size: 1rem;
-        background-color:#faf4ed;
-        color: #907aa9;
-        font-family: 'Roboto', sans-serif;
     }
     .gridlayout {
         display: grid;
@@ -193,12 +183,14 @@
         justify-content: center;
     }
 }
-.light_mode {
+button {
+    border: 0;
+    border-radius: 0px;
     background-color:#faf4ed;
     color: #907aa9;
     font-family: 'Roboto', sans-serif;
 }
-button.light_mode{
+.light_mode {
     background-color:#faf4ed;
     color: #907aa9;
     font-family: 'Roboto', sans-serif;
@@ -221,11 +213,9 @@ button.light_mode{
 }
 .buttonsave{
     vertical-align: bottom;
-    color:#faf4ed ;
 }
 .buttondelete{
     vertical-align: bottom;
-    color:#faf4ed ;
 }
 .unhide{
     color:#907aa9 ;
